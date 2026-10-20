@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Env
+.env
+
+# Data (vector db / uploads - not source code)
+backend/data/chroma_db/*
+backend/data/uploads/*
+!backend/data/chroma_db/.gitkeep
+!backend/data/uploads/.gitkeep
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

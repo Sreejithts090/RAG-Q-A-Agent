@@ -1,0 +1,13 @@
+{
+  "name": "rag-qa-agent",
+  "version": "1.0.0",
+  "description": "A full-stack **Retrieval-Augmented Generation (RAG)** question-answering agent. Upload documents (PDF/TXT/DOCX), and ask natural-language questions grounded in their content — answers are generated **only from retrieved context**, with source citations, using a **fully local, open-source LLM stack** (no API keys required).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
